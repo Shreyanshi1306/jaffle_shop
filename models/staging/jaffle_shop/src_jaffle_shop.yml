@@ -1,0 +1,10 @@
+version: 2
+ 
+sources:
+  - name: jaffle_shop  # name of the source we want to give, while referring the data we would use this name
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: customers  # table 1
+      - name: orders     # table 2
+ 
